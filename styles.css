@@ -1,0 +1,207 @@
+.row{
+    background-color: #92b2ba;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav{
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+}
+
+/* hero image */
+
+.hero {
+    background-image: url(./banner.png);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px;
+}
+.hero div h1{
+    font-size: 4em;
+    align-items: right;
+}
+
+.hero p{
+    text-align: right;
+}
+
+/* all small divs */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap:25px;
+    width: 100%;
+
+}
+.card{
+    height: 400px;
+    width: 32%;
+    background-color: white;
+}
+
+
+.flowername{
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+}
+.flower{
+    display: flex;
+    justify-content: space-between;
+}
+.des{
+    display: flex;
+    margin: 0px;
+    gap: 10px;
+}
+.des p{
+    margin: 0px;
+}
+
+
+/* colors */
+.grey{background-color: #eeeeee;}
+
+.money{
+    background-color: #f9dde0;
+}
+
+.blue{
+    color: #92b2ba;
+}
+
+/* images */
+p{
+    font-size: 12px;
+}
+.cardimage{
+    background-image: url(./flower-1\ \(1\).png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+.two{
+    background-image: url(flower-2.png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+.threee{
+    background-image: url(flower-3.png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+.four{
+    background-image: url(flower-4.png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+.five{
+    background-image: url(flower-5.png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+.six{
+    background-image: url(flower-6.png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+.seven{
+    background-image: url(flower-7.png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+.eight{
+    background-image: url(flower-8.png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+.nine{
+    background-image: url(flower-9.png);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+/* footer */
+footer{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 50px;
+    background-color: #eeeeee;
+    display: flex;
+    text-align: center;
+    
+}
+.finalpic{
+    display: inline-block;
+    align-items: center;
+    background-image: url(logo.png);
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+.holder{
+    text-align: center;
+    width: 300px;
+    text-align: left;
+}
+.bold{
+   font-size: 20px;
+    color: #92b2ba;
+    font-weight: bold;
+}
+.logo{
+    text-align: center;
+    position: relative;
+    top: 25px;
+
+}
+.social{
+    height: 20px;
+    width: 10px;
+}
+
+body{
+    padding: 70px;
+    padding-top: 0px;
+    background-color: whitesmoke;
+}
+
+/* color changes */
+.flowerc{
+    color:  #92b2ba
+    ;
+}
+.blue{
+    font-size: 13px;
+}
